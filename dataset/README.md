@@ -10,7 +10,7 @@ If you have cloned the repository into Google Colab, you can import these module
 # 1. Setup path so Python sees the repo
 import sys
 import os
-sys.path.append('/content/6d-pose-estimation') 
+sys.path.append('/content/6d_pose_estimation') 
 
 # 2. Import modules
 from dataset import download_dataset, MultiObjectLineModDataset, visualize_sample
