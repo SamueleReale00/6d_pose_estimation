@@ -33,4 +33,4 @@ transform = transforms.Compose([
 data_path = "/content/datasets/linemod/Linemod_preprocessed/data"
 dataset = MultiObjectLineModDataset(root_dir=data_path, transform=transform)
 loader = DataLoader(dataset, batch_size=4, shuffle=True)
-
+```
